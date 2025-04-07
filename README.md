@@ -12,7 +12,7 @@ A Retrieval-Augmented Generation (RAG) based chatbot that allows users to upload
 - [🧩 Response Structuring Approach]
 - [⚠️ Challenges & Solutions]
 - [📸 Demo & Screenshots]
-- [📄 License]
+  
 
 ---
 
