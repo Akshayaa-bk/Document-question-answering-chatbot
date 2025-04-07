@@ -149,7 +149,8 @@ The chatbot follows a pipeline-based architecture:
 
 ![image](https://github.com/user-attachments/assets/752fc6c6-b3a7-419c-ad1c-b35c6fed5bd7)
 ![image](https://github.com/user-attachments/assets/8282c801-bf20-4a06-9d1e-710fd32eb9d7)
-![image](https://github.com/user-attachments/assets/ba5ee7a6-4820-4842-8587-f2c61950aead)
+![image](https://github.com/user-attachments/assets/8561444c-67e3-4e4e-bf8d-21274a4e85d1)
+
 
 
 ---
