@@ -36,31 +36,36 @@ pip install -r /project/requirements.txt
 Follow these steps:
 
 1. **Launch the Jupyter Notebook**
-   - Open and run the `rag_chatbot_ailaysa.ipynb`.
+   - Open and run all the cells in`rag_chatbot_ailaysa.ipynb`.
 
-2. **Get the App Link**
-   - Once executed, you'll receive a ...ngrok-free.app  link.
+2.**Set secret keys**
+  - set the env variables which are available in the .env file as keys in google colab
 
-3. **Open the Link**
-   - Click the link to open the Streamlit app in your browser.
+3. **Get the App Link**
+   - Once executed, you'll receive a "...ngrok-free.app"  link from the last cell as an output.
 
-4. **Upload Documents**
-   - Use the sidebar to upload PDF, TXT, or DOCX files.
+4. **Open the Link**
+   - Click the link to open the Streamlit app in your browser. (click "visit site" in the ngrok.app link prompted before the streamlit)
 
-5. **Start Chatting!**
+5. **Upload Documents**
+   - Use the sidebar in the streamlit app to upload PDF, TXT, or DOCX files.
+
+6.**Start Chatting!**
    - Enter any question related to your uploaded documents and get contextual answers.
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Layer | Technology | Purpose |
-|-------|------------|---------|
-| 💬 Language Model | OpenAI (GPT) | Generates human-like responses |
-| 🔍 Vector Store | Pinecone | Stores and retrieves semantic embeddings |
-| 🧱 Framework | LangChain | Document parsing, chunking, and orchestration |
-| 🌐 Interface | Streamlit | UI for document upload and interaction |
-| 🌉 Hosting (Dev) | Gradio / ngrok | Share the app externally during development |
+| Layer                | Technology                    | Purpose                                                                 |
+|---------------------|-------------------------------|-------------------------------------------------------------------------|
+| 💬 Language Model    | Mistral-7B-Instruct-v0.2       | Generates human-like responses                                          |
+| 🤗 Model Provider    | Hugging Face Hub               | Hosts and serves the LLM via nt`                     |
+| 🔍 Vector Store       | Pinecone                        | Stores and retrieves semantic embeddings                                |
+| 🧠 Retrieval Method   | Hybrid Search (Semantic + Keyword) | Enhances retrieval accuracy by combining dense and sparse search        |
+| 🧱 Framework          | LangChain                       | Document parsing, chunking, embedding, retrieval, and orchestration     |
+| 🌐 Interface          | Streamlit                       | UI for document upload and interaction                                  |
+| 🌉 Hosting (Dev)      | Gradio / ngrok                  | Share the app externally during development                             |
 
 ---
 
@@ -72,7 +77,6 @@ Follow these steps:
 ├──project
    ├──.gitignore
    ├──.env
-   ├──utils
    ├──utils
       ├──document_processor.py
       ├──embedding_manager.py
@@ -86,7 +90,7 @@ Follow these steps:
 
 ---
 
-## 🧩 Response Structuring Approach
+## 🧩Workflow
 
 The chatbot follows a pipeline-based architecture:
 
@@ -143,6 +147,7 @@ The chatbot follows a pipeline-based architecture:
 
 ## 📸 Demo & Screenshots
 
+![image](https://github.com/user-attachments/assets/752fc6c6-b3a7-419c-ad1c-b35c6fed5bd7)
 
 
 ---
