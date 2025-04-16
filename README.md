@@ -1,4 +1,4 @@
-# 🤖 RAG Chatbot – AILaysa
+# 🤖 RAG Chatbot 
 
 A Retrieval-Augmented Generation (RAG) based chatbot that allows users to upload documents and interact with them via natural language questions. Powered by modern LLMs, LangChain, PINECONE, and Streamlit.
 
